@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    background-image: url('/Sign-up-form/imag/t\ pic.jpeg');
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
