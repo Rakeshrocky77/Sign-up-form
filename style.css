@@ -7,17 +7,41 @@ h1 {
     font-family: Norse-Bold, sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .main {
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 .left {
-    background-image: url('/Sign-up-form/imag/t\ pic.jpeg');
+    background-image: url("Sign-up-form/imag/tpic.jpeg");
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Boldm, sans-serif;
 }
 
 .right {
-    display: flex;
-    justify-content: center;
+        display: flex;
+   flex-direction: column;
+}
+
+.first {
+    height: 33vh;
+}
+
+.second {
+    height: 33vh;
+}
+
+.third {
+    height: 33vh;
 }
