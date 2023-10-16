@@ -20,41 +20,47 @@
             <br/><br/>
             You <em>know</em> you want to.     
         </h2>
+        </div>     
+          <form action="" method="get" class="form-main-div">
+            <div class="second">
+            <h3 style="margin-left: 50px; padding-top: 10px;">Let's do this!</h3>
+             <div class="form-main-div">
+              <div class="form-divs">
+                <div class="form-div">
+                  <label for="firstName">FIRST NAME</label>
+                  <input type="text" id="firstName" name="first_name">
+                </div>
+                <div class="form-div">
+                  <label for="email">EMAIL;</label>
+                  <input type="email" id="email" name="email">
+               </div>
+                <div class="form-div">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" name="password" required>
+                  <p id="error">*passwords do not match</p> 
+               </div>
+            </div>  
+            <div class="form-divs">
+             <div class="form-div">
+               <label for="lastName">LASTNAME</label>
+               <input type="text" id="lastName" name="lastName">
+            </div>
+            <div class="form-div">
+              <label for="phoneNumber">PHONENUMBER</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber">
+            </div>
+            <div class="form-div">
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input type="password" id="confirmPassword" name="confirmPassword" required>
+           </div>
+          </div>
+         </div>
         </div>
-        <div class="second">
-            <h3>Let's do this!</h3>
-            <form action="" method="get" class="form-main-div">
-                <div class="form-divs"></div>
-                <div class="form-div">
-                    <label for="firstName">First name</label>
-                    <input type="text" id="firstName" name="first_name">
-                </div>
-                <div class="form-div">
-                    <label for="firstName">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div class="form-div">
-                    <label for="Password">Password</label>
-                    <input type="password" id="password" name="password">
-                </div>
-                <div class="form-divs">
-                    <div class="form-div">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
-                    </div>
-                    <div class="form-div">
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" id="phoneNumber" name="phoneNumber">
-                    </div>
-                    <div class="form-div">
-                        <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" id="confirmPassword" name="confirmPassword">
-                    </div>
-                </div>
-            </form>
+        <div class="third">
+            <button type="submit" class="btn btn-green">Create Account</button>
         </div>
-        <div class="third">world</div>
-    </div>
-</div>
-</body>
+     </form>     
+      </div>
+   </div>
+  </body>
 </html>
