@@ -25,23 +25,35 @@ body {
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: black;
     font-family: Norse-Boldm, sans-serif;
 }
 
 .right {
-        display: flex;
+   display: flex;
    flex-direction: column;
+   background-color: #fafafa;
+   width: 65vw;
 }
 
 .first {
     height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .second {
     height: 33vh;
+    background-color: white;
 }
 
+.form-main-div{
+    display: flex;
+    flex-direction: column;
+}
 .third {
     height: 33vh;
 }
