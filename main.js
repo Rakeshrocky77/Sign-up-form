@@ -3,9 +3,12 @@ document.addEventListener("DOMContentLoaded", function {
     let confirmPassword = document.querySelector("#confirmPassword").value;
 
     let error = document.querySelector("#error");
-
-    if(password == confirmPassword){
+       
+    if(password = "" && confirmPassword == ""){
         error.innerHTML = "*passwords do not match";
+    }
+    else if (password === confirmPassword){
+        error.innerHTML ="";
     }
 
     console.log("hai");

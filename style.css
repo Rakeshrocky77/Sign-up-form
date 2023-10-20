@@ -49,6 +49,8 @@ body {
 .second {
     background-color: white;
     height: 33vh;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7E8;
 }
 
 .form-main-div{
@@ -93,3 +95,38 @@ label {
     font-size: 10px;
     color: #3b3b3c;
 }
+
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    width: 175px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7E8;
+}
+
+.third {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.hyperlink {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
