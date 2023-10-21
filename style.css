@@ -22,7 +22,7 @@ body {
 }
 
 .left {
-    background-image: url("Sign-up-form/imag/tpic.jpeg");
+    background-image: url("/images/halie-west-25xggax4bSA-unsplash.jpg");
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,9 +124,31 @@ label {
     margin-top: 25px;
 }
 
-a {
+.login {
     color: #596D48;
     text-decoration: none;
     font-weight: bold;
+}
+
+.a-footer {
+    color: white;
+}
+
+.p-footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.forImage {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+.forfooter {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 35vh;
 }
 
